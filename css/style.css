@@ -71,6 +71,23 @@ body{
     display: inline-block;
     margin-top: 10px;
 }
+ul{
+    list-style-type: none;
+}
+.submenu{
+    background-color: white;
+    padding: 10px 15px;
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+}
+.submenu a{
+    color: var(--Very-dark-blue);
+    transition: 250ms;
+}
+.submenu a:hover{
+    font-weight: 700;
+}
 .links a:hover{
     border-bottom: 1px solid var(--White);
 }
@@ -97,6 +114,7 @@ body{
     transition: 250ms;
     display: inline-block;
     font-size: .9rem;
+    height: 38px;
     font-family: 'Ubuntu',sans-serif;
 }
 .btn:hover{
